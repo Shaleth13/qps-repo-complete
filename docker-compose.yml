@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  replay:
+    image: python:3.10-slim
+    container_name: qps_replay
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: bash run_replay.sh
+    tty: true

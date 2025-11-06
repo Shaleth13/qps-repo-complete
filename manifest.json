@@ -1,0 +1,160 @@
+{
+  "generated_at": "2025-11-06T13:03:54.606539Z",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "84a95477dc976947bb77dc902341eff4c5394f212a4c06c4e95dde63a9a79867",
+      "size": 764
+    },
+    {
+      "path": "README.md",
+      "sha256": "2e8dd763de91303ceee92fa86e3528df42fa657b33a759f8d3fc9feff0304e8f",
+      "size": 2236
+    },
+    {
+      "path": "README_QUICKSTART.md",
+      "sha256": "f1ccc75d1d9ceab73aff3c8424b8745446e5cc4455d4f44c4433977f46606f62",
+      "size": 2699
+    },
+    {
+      "path": "artifacts/marketdata/sample_feed.csv.gz",
+      "sha256": "928137f848724755ade087cf461f90bc1d443b8568ab07d3cdbaea1cf38ead7f",
+      "size": 130
+    },
+    {
+      "path": "docker-compose.yml",
+      "sha256": "984a32ad0321c908024fcdb0d14941cfb40e67c11b2983f3ad123a58a3b3a240",
+      "size": 202
+    },
+    {
+      "path": "replication_diffs.json",
+      "sha256": "0212ab0888410662c5d656ee9633bc02cb3b377fc566918dd9f8ff1dfbe8ed67",
+      "size": 753
+    },
+    {
+      "path": "replication_diffs.json.template",
+      "sha256": "0212ab0888410662c5d656ee9633bc02cb3b377fc566918dd9f8ff1dfbe8ed67",
+      "size": 753
+    },
+    {
+      "path": "reports/quantstats.html",
+      "sha256": "0c5522419943e2711e9a108c7dae8e0645b0d51fd46d6929155057b9013665f1",
+      "size": 183
+    },
+    {
+      "path": "reports/wfo_in_vs_oos.png",
+      "sha256": "e4bd60f7addf13049d4adc5d868f81a25273fd6e21f0055bba37c9f4d15cee2e",
+      "size": 3940
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "0bacd46aaa797b3f336816610038b9091b796d9fcea6699eb60efaceecbc4d99",
+      "size": 13
+    },
+    {
+      "path": "results.json",
+      "sha256": "3bee99a22aeb6cf078b62f5830f8a2a95f08f9c50195f5e74c1a0e49704dd9ad",
+      "size": 936
+    },
+    {
+      "path": "results.json.template",
+      "sha256": "3bee99a22aeb6cf078b62f5830f8a2a95f08f9c50195f5e74c1a0e49704dd9ad",
+      "size": 936
+    },
+    {
+      "path": "run_replay.sh",
+      "sha256": "39b0eb1d19dc71741081a95d501a2730b2436040391872eeaf2460a0bc2c76cf",
+      "size": 1920
+    },
+    {
+      "path": "scripts/generate_synth_data.py",
+      "sha256": "5806be7d6d65705581ba35b104ea70185a8803bb74d77021d3a759bee51dcc26",
+      "size": 2218
+    },
+    {
+      "path": "scripts/run_live.py",
+      "sha256": "1945ea4264ce013d2e7255962cb88a5af892b62902e74a821f380d250e37d5ef",
+      "size": 1512
+    },
+    {
+      "path": "scripts/run_replay.py",
+      "sha256": "b5aaf1872b67830651d104342acb7d92afdd38df3dcbb59a0e51008ec58b338b",
+      "size": 680
+    },
+    {
+      "path": "src/qps/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "src/qps/broker.py",
+      "sha256": "78645b4bf3512e5c3ef00e3d48c2cd687f26ec9f8caa6f43a9edbb1743a82432",
+      "size": 556
+    },
+    {
+      "path": "src/qps/data.py",
+      "sha256": "6fd56399e4e37c26251b6d3d90e406da3f46df8067307df074b52074416b4def",
+      "size": 2046
+    },
+    {
+      "path": "src/qps/engine.py",
+      "sha256": "3f79a1ef69b168de1cf268ac6b1e88278c31d38b86327e93eee5383fa261e30c",
+      "size": 5508
+    },
+    {
+      "path": "src/qps/evaluate.py",
+      "sha256": "598cbcb94c0d1e7140348d380e229d1492f60cb9fdce87b286e6f41fa123b4cb",
+      "size": 1004
+    },
+    {
+      "path": "src/qps/event.py",
+      "sha256": "4c7856de63b0c4ad76ef48d5ee1050b5321bf4520e8207ad432cfb78f3a74225",
+      "size": 674
+    },
+    {
+      "path": "src/qps/logger.py",
+      "sha256": "25db1dd57a842e9abf09227e4a099015644771b447c8ea792494bffdbb70e844",
+      "size": 318
+    },
+    {
+      "path": "src/qps/portfolio.py",
+      "sha256": "9c4f550c08fbac343f635ad6249c3abcb3729ae827f278bca177e26e3a82a85f",
+      "size": 1732
+    },
+    {
+      "path": "src/qps/replay.py",
+      "sha256": "3848e1d39898d6645aad8f8a6b9add158cad816aa46893fb84bb997b484dcd08",
+      "size": 1142
+    },
+    {
+      "path": "src/qps/strategies/alpha1_pairs.py",
+      "sha256": "42fbbdb475d30e34a78b8505f9578f793250e99d7110b7301457893da3c9ef48",
+      "size": 766
+    },
+    {
+      "path": "src/qps/strategies/alpha2_breakout.py",
+      "sha256": "f79787f1f131efb1d8001df93c961f77d0123f4b3bed344bed297c05bdcc6266",
+      "size": 1015
+    },
+    {
+      "path": "src/qps/strategies/alpha3_mtf.py",
+      "sha256": "a7bc94a52d69d452cd5208ecd6b894f213045cb19f0b8f2b2045d9d0ca27a813",
+      "size": 1416
+    },
+    {
+      "path": "src/qps/strategies/alpha4_multi_asset_momentum.py",
+      "sha256": "07aba2f7133e21582fff781e53c753c33f3b8762952d3eb43a771b7950cb0ee3",
+      "size": 675
+    },
+    {
+      "path": "src/qps/strategies/alpha5_orderbook_mock.py",
+      "sha256": "d4cb429ff1beb1c961e03859ea6c4e36f598c181909f8b23969ec610dc7719df",
+      "size": 1080
+    },
+    {
+      "path": "src/qps/strategy_base.py",
+      "sha256": "db88623cdfd89e7e93a89a651db0b72f242ffcf9816b270d922dcc87da5284ee",
+      "size": 537
+    }
+  ]
+}

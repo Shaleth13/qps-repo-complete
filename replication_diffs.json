@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "total_alphas": 5,
+    "total_mismatched_trades": 2,
+    "status": "PARTIAL_PASS",
+    "generated_at": "2025-11-06T13:03:54.552059Z"
+  },
+  "diffs": [
+    {
+      "alpha": "alpha_5_orderbook",
+      "trade_id_sandbox": "T-20251101-00123",
+      "trade_id_backtest": "BT-20251101-00123",
+      "field_diffs": {
+        "filled_qty": {
+          "sandbox": 100,
+          "backtest": 90
+        },
+        "fill_price": {
+          "sandbox": 100.5,
+          "backtest": 100.0
+        }
+      },
+      "root_cause": "Partial fill due to L2 update latency; backtest assumed FIFO immediate fills.",
+      "remediation": "Switch backtest fill model to simulated orderbook matching or capture partial-fill events in sandbox."
+    }
+  ]
+}

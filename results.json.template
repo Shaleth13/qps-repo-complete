@@ -1,0 +1,42 @@
+{
+  "portfolio_pnl": {
+    "sandbox_pnl": 572.3,
+    "backtest_pnl": 572.3,
+    "pnl_match": "PASS",
+    "tolerance": 0.01
+  },
+  "alphas": {
+    "alpha_1_pairs": {
+      "trades": 15,
+      "pnl": 102.5,
+      "match": "PASS",
+      "analysis": ""
+    },
+    "alpha_2_breakout": {
+      "trades": 8,
+      "pnl": -30.1,
+      "match": "PASS",
+      "analysis": ""
+    },
+    "alpha_3_mtf": {
+      "trades": 12,
+      "pnl": 210.4,
+      "match": "PASS",
+      "analysis": ""
+    },
+    "alpha_4_multi_asset": {
+      "trades": 3,
+      "pnl": 301.0,
+      "match": "PASS",
+      "analysis": ""
+    },
+    "alpha_5_orderbook": {
+      "trades": 55,
+      "pnl": -11.5,
+      "match": "FAIL",
+      "analysis": "Mismatch in 2 trades due to L2 book update latency in sandbox vs. backtest sim."
+    }
+  },
+  "generated_at": "2025-11-06T13:03:54.551316Z",
+  "notes": "Template results.json \u2014 replace with real numbers after replay."
+}
